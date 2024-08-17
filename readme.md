@@ -3,6 +3,9 @@
 ## Description
 This project is based on Vector Databases(Postgres + pgvector) built using FastAPI. It provides endpoints to fetch movie details based on natural language queries. The API also supports CORS and serves static files.Data was scraped from IMDB
 
+![image](https://github.com/user-attachments/assets/390676c1-292b-45d9-800d-4fd24b43630d)
+![image](https://github.com/user-attachments/assets/fe994fb4-63a0-47ea-b9ca-f93e0fc4b06e)
+
 ## Data Scraping
 
 ### How We Scraped the Data
@@ -115,9 +118,7 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
         ```
 
 
-## Images 
-![image](https://github.com/user-attachments/assets/390676c1-292b-45d9-800d-4fd24b43630d)
-![image](https://github.com/user-attachments/assets/fe994fb4-63a0-47ea-b9ca-f93e0fc4b06e)
+
 
 ## Project Name Change
 
