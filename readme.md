@@ -119,6 +119,11 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
 ![image](https://github.com/user-attachments/assets/390676c1-292b-45d9-800d-4fd24b43630d)
 ![image](https://github.com/user-attachments/assets/fe994fb4-63a0-47ea-b9ca-f93e0fc4b06e)
 
+## Project Name Change
+
+Originally, this project was named **find-that-movie.com**. However, after some consideration and feedback, we decided to rename it to **find-my-movie**. The new name better reflects the personalized experience we aim to provide, helping users find the perfect movie just for them.
+
+
 
 ## Contributing
 1. Fork the repository.
