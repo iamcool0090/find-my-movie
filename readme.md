@@ -85,7 +85,6 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
                 "title": "Movie Title",
                 "language": "en"
             },
-            ...
         ]
         ```
 
