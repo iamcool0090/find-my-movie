@@ -1,7 +1,7 @@
-# Movie Recommendation API
+# find-my-movie
 
 ## Description
-This project is a Movie Recommendation API built using FastAPI. It provides endpoints to fetch movie details based on language, natural language queries, and movie IDs. The API also supports CORS and serves static files.Data was scraped from IMDB
+This project is based on Vector Databases(Postgres + pgvector) built using FastAPI. It provides endpoints to fetch movie details based on natural language queries. The API also supports CORS and serves static files.Data was scraped from IMDB
 
 ## Data Scraping
 
@@ -16,7 +16,6 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
 
 
 ### Prerequisites
-- Python 3.8+
 - PostgreSQL with `pgvector` extension
 
 ## Table of Contents
@@ -44,7 +43,7 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
     ```sh
     pip install -r requirements.txt
     ```
-5. Create a `.env` file in the backend directory and add your MISTRAL API key:
+5. Create a `.env` file in the backend directory 
     ```env
         MISTRAL_API_KEY="MISTRAL_API_KEY"
         POSTGRES_PASSWORD="mysecretpassword"
@@ -96,20 +95,10 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
     - **Request Body:**
         ```json
         {
-            "text": "Find me some action movies"
+            "text": "Find a movie involving dyslexia"
         }
         ```
-    - **Response:**
-        ```json
-        [
-            {
-                "movie_id": 1,
-                "title": "Action Movie",
-                "language": "en"
-            },
-            ...
-        ]
-        ```
+
 
 ### Get Movie Details by ID
 - **GET /api/movies/id/{movie_id}**
