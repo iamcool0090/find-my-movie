@@ -114,6 +114,12 @@ We scraped movie data from IMDb to populate our recommendation system. This was 
         }
         ```
 
+
+## Images 
+![image](https://github.com/user-attachments/assets/390676c1-292b-45d9-800d-4fd24b43630d)
+![image](https://github.com/user-attachments/assets/fe994fb4-63a0-47ea-b9ca-f93e0fc4b06e)
+
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch:
