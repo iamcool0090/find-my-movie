@@ -29,7 +29,7 @@ fasteners==0.18
 frozenlist==1.4.0
 greenlet==3.0.3
 gyp==0.1
-h11==0.14.0
+h11==0.16.0
 httplib2==0.20.4
 idna==3.6
 importlib-metadata==4.12.0
